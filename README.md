@@ -1,11 +1,9 @@
 # ctc-drug-trafficking
 Capture The Criminal drug trafficking mission
-git clone https://github.com/your-username/ctc-drug-trafficking-scenario.git
-cd ctc-drug-trafficking-scenario
 ctc-drug-trafficking-scenario/
 │
 ├── README.md
-├── SCENARIO.md        
+├── SCENARIO.md             ← Full step-by-step gameplay outline
 ├── CHARACTERS/
 │   ├── the_broker.md
 │   ├── raven.md
@@ -27,9 +25,3 @@ ctc-drug-trafficking-scenario/
     ├── decrypt_passphrase.py
     ├── password_hint.txt
     └── crypto_wallet_hint.txt
-
-mkdir CHARACTERS LOCATIONS CLUES PUZZLES
-touch SCENARIO.md CHARACTERS/the_broker.md ...
-git add .
-git commit -m "Add initial CTC scenario files and structure"
-git push origin main
